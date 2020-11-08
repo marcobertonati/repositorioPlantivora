@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{  
+    
+    box-sizing: border-box;
+   
+}
+
+.container{
+    background-color: #f3f0f0;
+    
+}
+
+.container-head{
+    width: 100%;
+}
+
+.container-head>h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color:#5F7A67; 
+    font-size: 3.5rem; 
+ 
+}
+
+
+.nav{
+    background-color: #5F7A67;
+    justify-content: center;
+} 
+
+.fondo-nav{
+    background-color:  #5F7A67;
+    padding: 1rem 0 0.3rem 0;
+}
+
+.nav-link{
+    color: #CDDAAE;
+    font-size: 1.5rem;
+    font-family:'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+.pasto>img{
+    width:100%;
+}
+
+/* Agregar Productos */
+h2{
+   color:#5F7A67;
+   font-family: 'Roboto', sans-serif; 
+   font-size: 1.5rem;
+   padding: 2rem 0 1rem 0;
+}
+
+.form-abuelo{
+    margin-left: 0.375rem;
+}
+
+.form-padre{
+    padding: 0 0.3rem;
+}
+
+.form-control{
+    background-color: #CDDAAE;
+}
+
+.btn.btn-green{
+    background-color: #5F7A67;
+    color: white;
+}
+
+/* Productos Seleccionados */
+
+.fondo-tabla{
+    background-color: #CDDAAE;
+    color: #5F7A67;
+
+}
+
+.btn.btn-dark{
+    background-color: red;
+    font-weight: bold;
+    padding: 0 0.6rem;
+    margin: 0.6rem 0 0 0;
+}
+
+
+
+
+/* footer */
+
+.redes-sociales{
+    background-color: #5F7A67;
+    color: #f3f0f0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo-redes{
+    color: #f3f0f0;
+    padding: 0.7rem;
+}
+
+.btn-eliminar{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btn-outline-success-eliminar{
+    color: #5F7A67;
+    border: 1px solid #5F7A67;
+}
+
+.btn-outline-success-contacto{
+    color: #f3f0f0;
+    border: 1px solid white;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------Plantas.html-------------------------- */
+
+
+.descripcion-planta{
+    width: 300px;
+    height: 300px;
+}
