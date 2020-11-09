@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
-*{  
-    
+*{   
     box-sizing: border-box;
-   
 }
+
 
 .container{
     background-color: #f3f0f0;
-    
+    padding: 0;
+    margin: 0;
+    max-width: 1600px;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.col-sm{
+    padding: 0;
+    margin: 0;
 }
 
 .container-head{
@@ -21,17 +32,26 @@
     font-weight: 300;
     color:#5F7A67; 
     font-size: 3.5rem; 
- 
+}
+
+.titulo-principal{
+    color: #5F7A67;;
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 
 .nav{
-    background-color: #5F7A67;
+    background-color:#5F7A67;
     justify-content: center;
 } 
 
 .fondo-nav{
-    background-color:  #5F7A67;
+    background-color: #5F7A67;
     padding: 1rem 0 0.3rem 0;
 }
 
@@ -43,7 +63,7 @@
 }
 
 .pasto>img{
-    width:100%;
+    width:1600px;
 }
 
 /* Agregar Productos */
@@ -72,6 +92,10 @@ h2{
 }
 
 /* Productos Seleccionados */
+#productos-seleccionados{
+    padding: 15px;
+}
+
 
 .fondo-tabla{
     background-color: #CDDAAE;
@@ -79,17 +103,19 @@ h2{
 
 }
 
-.btn.btn-dark{
+.botonEliminar{
     background-color: red;
     font-weight: bold;
     padding: 0 0.6rem;
-    margin: 0.6rem 0 0 0;
+    color: white;
 }
 
 
-
-
 /* footer */
+
+.footer-pagina{
+    padding: 0;
+}
 
 .redes-sociales{
     background-color: #5F7A67;
@@ -118,6 +144,75 @@ h2{
     border: 1px solid white;
     margin-left: 2rem;
 }
+
+
+/* ----------------------------------Plantas.html-------------------------- */
+
+.contenedor-plantas{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: auto;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.img-planta{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s;
+}
+
+.nuestras-plantas{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#intro-plantas{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    
+}
+
+.contenedor-item{
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.titulo-planta{
+    text-align: center;
+    padding: 1rem 0;
+    color: #5F7A67;
+}
+
+.texto-planta{
+    position:absolute;
+    bottom: 0;
+    padding: 34px;
+    background: rgba(248, 248, 248, 0.7);
+
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+}
+
+.texto-planta p{
+    text-align: justify;
+    font-weight: bold;
+    color: green;
+}
+
+.contenedor-item:hover .texto-planta{
+    transform:translateY(0%);
+}
+
+.contenedor-item:hover .img-planta{
+    transform: scale(1.15);
+}
+
+
 
 
 
