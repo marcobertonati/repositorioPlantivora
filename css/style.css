@@ -38,7 +38,9 @@
     color: #5F7A67;;
 }
 
-
+a{
+    color: white;
+}
 a:hover{
     text-decoration: none;
     color: black;
@@ -214,23 +216,30 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------Plantas.html-------------------------- */
 
 
 .descripcion-planta{
     width: 300px;
     height: 300px;
+}
+
+/* index */
+
+.contenedor-index{
+    display:flex;
+    flex-flow: wrap;
+    overflow: 0 auto;
+}
+
+.texto-index{
+    
+    padding: 0 2rem;
+    color: #5F7A67;
+    font-weight: bold;
+    
+}
+
+.img-plantas{
+    width: 300px;
 }
