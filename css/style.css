@@ -196,7 +196,11 @@ h2{
     padding: 34px;
     background: rgba(248, 248, 248, 0.7);
 
-    transform: translateY(100%);
+    transform: translate(100%);
+    -ms-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
     transition: all 0.5s ease-out;
 }
 
@@ -207,11 +211,20 @@ h2{
 }
 
 .contenedor-item:hover .texto-planta{
-    transform:translateY(0%);
+    transform: translate(0%);
+    -ms-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+
 }
 
 .contenedor-item:hover .img-planta{
     transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
 }
 
 
